@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Six {
+public class Compare_Integer_Value {
 
   public static void main(String[] args){
     Integer i1 = 13;
