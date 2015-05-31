@@ -1,4 +1,4 @@
-//use array to calculate average of given group numbers
+//use array to calculate the average of given group numbers
 //output the numbers which are greater than average
 
 import java.util.*;
