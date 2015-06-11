@@ -12,7 +12,7 @@ public class Cash {
 		do{
 			System.out.println("Enter cash from 1 to 100:");
 			amount = scan.nextInt();
-		} while (amount <1 || amount>100);
+		}  while (amount <1 || amount>100);
 
 		for (int one = 0; one <= amount; one++){
 			for (int five = 0; five <= amount/5; five++){
