@@ -12,15 +12,5 @@ public class CD extends Item{
 		super.print();
 		System.out.println(numOfTracks);
 	}
-	
-	public int getNot(){
-		return numOfTracks;
-	}
-	
-	public static void main(String[] args){
-		CD cd = new CD("Owl City", 7);
-		cd.print();
-		System.out.println(cd.getNot());
-	}
 
 }
