@@ -18,12 +18,9 @@ public class Database {
 
 	public static void main (String[] args){
 		Database db = new Database();
-		CD cd = new CD("Owl City", 7);
-		DVD dvd = new DVD("House of Cards", "Kevin");
-		db.add(cd);
-		db.add(dvd);
+		db.add(new CD("Owl City", 7));
+		db.add(new DVD("House Of Cards", "Kevin"));
 		db.list();
-		Item i = cd;
-	
+
 	}
 }
