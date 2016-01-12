@@ -1,0 +1,16 @@
+
+public class VendingMachine {
+	
+	int price;
+	int balance;
+	int total;
+
+	void showPrompt()
+	{
+		System.out.println("Welcome");
+	}
+	public static void main(String[] args) {
+
+	}
+
+}
