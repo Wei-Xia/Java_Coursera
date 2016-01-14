@@ -1,0 +1,12 @@
+package Clock;
+
+public lass Clock {
+
+	private Display hour = new Display(24);
+	private Display minute = new Display(60);
+	
+	public static void main(String[] arg)
+	{
+		Clock clock = new Clock();
+	}
+}
