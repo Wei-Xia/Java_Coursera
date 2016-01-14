@@ -5,7 +5,28 @@ public class VendingMachine
 	int price = 90;
 	int balance;
 	int total;
+	int function = f();
+	
+	VendingMachine()    // 构造函数
+	{
+		total = 0;
+	}
+	
+	VendingMachine(int price)    // Overload
+	{
+		this.price = price;
+	}
+	
+	int f()
+	{
+		return 10000000;
+	}
 
+	void setPrice(int price)
+	{
+		this.price = price;
+	}
+	
 	void showPrompt()
 	{
 		System.out.println("Welcome");
@@ -14,6 +35,7 @@ public class VendingMachine
 	void insertMoney(int amount)
 	{
 		balance = amount + balance;
+		showBalance();
 	}
 	
 	void showBalance()
@@ -39,11 +61,11 @@ public class VendingMachine
 		vm.getFood();
 		vm.showBalance();
 		
-		VendingMachine vm1 = new VendingMachine();
+		VendingMachine vm1 = new VendingMachine(1);
 		vm1.insertMoney(200);
 		vm.showBalance();
 		vm1.showBalance();
-
+		
 	}
 
 }
