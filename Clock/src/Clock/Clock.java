@@ -1,11 +1,11 @@
 package Clock;
 
-import display.Display;
+import display.led.Display;
 
 public class Clock {
 
-	private Display hour = new Display(24);
-	private Display minute = new Display(60);
+	private Display hour = new Display(24);				//private display.Display hour = new display.Display(24);		
+	private Display minute = new Display(60);			//private display.Display minute = new display.Display(60);
 	
 	public void start()
 	{
