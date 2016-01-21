@@ -1,7 +1,5 @@
 package fraction;
 
-// Go to 2.2
-
 import java.util.Scanner;
 
 public class Main {
