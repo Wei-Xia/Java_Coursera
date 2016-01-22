@@ -1,0 +1,20 @@
+package notebook;
+
+public class NoteBook {
+	
+	public void add(String s)
+	{
+		
+	}
+	
+	public int getSize()
+	{
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
