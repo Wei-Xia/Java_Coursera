@@ -37,9 +37,7 @@ public class NoteBook {
 		
 		a[0] = "One";
 		a[1] = "Two";
-		
-		System.out.println(a.length);
-
+				
 		NoteBook nb = new NoteBook();
 		
 		nb.add("First");

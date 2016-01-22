@@ -40,6 +40,7 @@ public class NoteBook {
 		
 		System.out.println(a.length);
 
+				
 		NoteBook nb = new NoteBook();
 		
 		nb.add("First");

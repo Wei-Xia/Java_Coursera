@@ -31,21 +31,8 @@ public class NoteBook {
 		return new String[10];
 	}
 
-	public static void main(String[] args) 
-	{
-		String[] a = new String[2];
-		
-		a[0] = "One";
-		a[1] = "Two";
-		
-		System.out.println(a.length);
+	public static void main(String[] args) {
 
-		NoteBook nb = new NoteBook();
-		
-		nb.add("First");
-		nb.add("Second");
-		
-		System.out.println(nb.getSize());
 	}
 
 }
