@@ -6,9 +6,9 @@ public class NoteBook {
 	
 	private ArrayList<String> notes = new ArrayList<String>();	
 	
-	public void add(String s, int location)
+	public void add(String s)
 	{
-		notes.add(location, s);
+		notes.add(s);
 	}
 	
 	public int getSize()
@@ -18,7 +18,7 @@ public class NoteBook {
 	
 	public String getNote(int index)
 	{
-		return notes.get(index);
+		return "";
 	}
 	
 	public boolean removeNote(int index)
@@ -46,7 +46,7 @@ public class NoteBook {
 		nb.add("Second");
 		
 		System.out.println(nb.getSize());
-		System.out.println(nb.getNote(0));
+		System.out.println(nb.getNote(index));
 	}
 
 }
