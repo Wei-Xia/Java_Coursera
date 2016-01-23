@@ -47,7 +47,6 @@ public class NoteBook {
 		
 		System.out.println(nb.getSize());
 		System.out.println(nb.getNote(0));
-		
 	}
 
 }
