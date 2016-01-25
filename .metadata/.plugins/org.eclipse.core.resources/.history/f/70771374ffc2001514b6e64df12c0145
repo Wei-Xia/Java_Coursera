@@ -57,9 +57,9 @@ public class NoteBook {
 		nb.add("Second");
 		nb.add("third",1);
 		
-//		System.out.println(nb.getSize());
-//		System.out.println(nb.getNote(0));
-//		System.out.println(nb.getNote(1));
+		System.out.println(nb.getSize());
+		System.out.println(nb.getNote(0));
+		System.out.println(nb.getNote(1));
 		
 		nb.removeNote(1);
 		
