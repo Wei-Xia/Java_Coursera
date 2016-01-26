@@ -71,13 +71,7 @@ public class NoteBook {
 		
 		for	(Value v : a)
 		{
-			System.out.println(v.get());
-			v.set(0);
-		}
-		
-		for	(Value v : a)
-		{
-			System.out.println(v.get());
+			System.out.print(v);
 		}
 		
 		

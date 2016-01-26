@@ -2,20 +2,6 @@ package notebook;
 
 import java.util.ArrayList;
 
-class Value{
-	private int i;
-	
-	public void set(int i)
-	{
-		this.i = i;
-	}
-	
-	public int get()
-	{
-		return i;
-	}
-}
-
 public class NoteBook {
 	
 	private ArrayList<String> notes = new ArrayList<String>();	
@@ -61,25 +47,6 @@ public class NoteBook {
 
 	public static void main(String[] args) 
 	{
-		Value[] a  = new Value[10];
-		
-		for	(int i = 0; i<a.length; i++)
-		{
-			a[i] = new Value();
-			a[i].set(i);
-		}
-		
-		for	(Value v : a)
-		{
-			System.out.println(v.get());
-			v.set(0);
-		}
-		
-		for	(Value v : a)
-		{
-			System.out.println(v.get());
-		}
-		
 		
 //		int[] ia = new int[10];
 //		
@@ -93,16 +60,16 @@ public class NoteBook {
 //			System.out.println(k);
 //		}
 		
-//		String[] a = new String[10];
-//		
-//		for(int i = 0; i<a.length; i++)
-//		{
-//			a[i] = ""+i;
-//		}
-//		
-//		System.out.println(ia[1]+2);
-//		System.out.println(a.length);
-//		
+		String[] a = new String[10];
+		
+		for(int i = 0; i<a.length; i++)
+		{
+			a[i] = ""+i;
+		}
+		
+		System.out.println(ia[1]+2);
+		System.out.println(a.length);
+		
 //		String s = null;
 //		System.out.println(s.length());
 		

@@ -69,17 +69,6 @@ public class NoteBook {
 			a[i].set(i);
 		}
 		
-		for	(Value v : a)
-		{
-			System.out.println(v.get());
-			v.set(0);
-		}
-		
-		for	(Value v : a)
-		{
-			System.out.println(v.get());
-		}
-		
 		
 //		int[] ia = new int[10];
 //		
