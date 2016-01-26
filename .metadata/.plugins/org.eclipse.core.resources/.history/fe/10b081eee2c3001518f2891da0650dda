@@ -81,16 +81,6 @@ public class NoteBook {
 		}
 		
 		
-		ArrayList<String> ab = new ArrayList<String>();
-		
-		ab.add("First");
-		ab.add("Second");
-		
-		for	(String s : ab)
-		{
-			System.out.println(s);
-		}
-		
 //		int[] ia = new int[10];
 //		
 //		for	(int i = 0; i<ia.length; i++)

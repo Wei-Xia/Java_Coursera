@@ -81,12 +81,12 @@ public class NoteBook {
 		}
 		
 		
-		ArrayList<String> ab = new ArrayList<String>();
+		ArrayList<String> a = new ArrayList<String>();
 		
-		ab.add("First");
-		ab.add("Second");
+		a.add("First");
+		a.add("Second");
 		
-		for	(String s : ab)
+		for	(String s : a)
 		{
 			System.out.println(s);
 		}
