@@ -58,10 +58,10 @@ public class NoteBook {
 		}
 		
 		System.out.println(ia[1]+2);
-		System.out.println(a.length);
+		System.out.println(a[0] + "a");
 		
-//		String s = null;
-//		System.out.println(s.length());
+		String s = null;
+		System.out.println(s.length());
 		
 ////		String[] a = new String[2];
 ////		
